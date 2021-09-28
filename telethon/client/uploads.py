@@ -113,7 +113,7 @@ class UploadMethods:
             buttons: 'hints.MarkupLike' = None,
             silent: bool = None,
             background: bool = None,
-            supports_streaming: bool = False,
+            supports_streaming: bool = True,
             schedule: 'hints.DateLike' = None,
             comment_to: 'typing.Union[int, types.Message]' = None,
             ttl: int = None,
